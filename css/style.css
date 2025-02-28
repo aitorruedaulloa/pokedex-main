@@ -1,0 +1,75 @@
+/* Aquí podemos ver la imagen  */
+
+@font-face {
+    font-family:"Pixelify Sans";
+    src: url(../google-font/PixelifySans-VariableFont_wght.ttf);
+}
+
+#body_index {
+    background-image: url(./../imgportada/kanto-map.jpeg);
+    font-family: "Pixelify Sans";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    }
+    
+#body_charmander {
+        background-image: url(./pokeball-fuego.jpg);
+    }
+
+    #body_mew {
+        background-image: url(../pokemons_paginas/imgpokemons/mew/fondo1.jpg);
+        font-family: "Pixelify Sans";
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+
+.H1 {
+    background-color: rgba(0, 0, 0, 0.551);
+    text-align: center;
+    color: aliceblue;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 40px;
+    
+}
+
+.fire {
+    background-color: rgba(233, 6, 51, 0.464);
+    border-radius: 12px;
+   margin-right: 350px;
+    text-align: center;
+  
+}
+
+.psiquico {
+    background-color: rgba(247, 0, 255, 0.412); 
+    border-radius: 12px;
+   margin-right: 350px;
+    text-align: center; 
+}
+
+#body_cindaquill {
+    background-image: url(../pokemons_paginas/imgpokemons/cindaquill/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Pixelify Sans";
+
+
+}
+
+.div_pokemons {
+    background-color: rgba(240, 248, 255, 0.633);
+    margin-right: 900px;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
