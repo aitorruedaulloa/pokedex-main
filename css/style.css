@@ -41,7 +41,48 @@ background-attachment: fixed;
 background-position: center;
 }
 
+#body_typhlosion {
+    background-image: url(../pokemons_paginas/imgpokemons/Typhlosion/Typhlosion_fondo.jpg);
+    font-family: "Pixelify Sans";
+    background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
+
+#body_cyndaquil {
+    background-image: url(../pokemons_paginas/imgpokemons/cindaquill/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Pixelify Sans";
+}
+
+#body_Charmeleon {
+    background-image: url(./../pokemons_paginas/imgpokemons/Charmeleon/Charmeleon_fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Pixelify Sans";
+}
  
+#body_Charizard {
+    background-image: url(./../pokemons_paginas/imgpokemons/Charizard/charizard_fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Pixelify Sans";
+}
+
+.paragrafos_cydaquil{
+align-self: center;
+/* margin-right: 900px; */
+border-radius: 15px;
+padding: 20px;
+}
 
 .H1 {
     background-color: rgba(0, 0, 0, 0.551);
@@ -68,21 +109,10 @@ background-position: center;
     text-align: center; 
 }
 
-#body_cyndaquil {
-    background-image: url(../pokemons_paginas/imgpokemons/cindaquill/fondo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: "Pixelify Sans";
-
-
-
-}
-
 .div_pokemons {
     background-color: rgba(240, 248, 255, 0.633);
-    margin-right: 900px;
+    margin: 50%;
+    /* margin-right: 900px; */
     border-radius: 15px;
     padding: 20px;
 
@@ -91,8 +121,44 @@ background-position: center;
     background-color:aliceblue;
     text-align: center;
     color: aliceblue;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 40px;
 
 }
+@media only screen and (max-width: 600px)  {
+    .div_pokemons {
+       margin-right: unset;
+        margin: auto;
+        width: 40%;
+        border: 3px solid green;
+        padding: 10px;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    .item1 {grid-area: 1 / span 6;}
+    .item2 {grid-area: 2 / span 6;}
+    .item3 {grid-area: 3 / span 6;}
+    .item4 {grid-area: 4 / span 6;}
+    .item5 {grid-area: 5 / span 6;}
+  } */
+  
+  @media only screen and (min-width: 600px) {
+    .div_pokemons {
+        margin-right: unset;
+         margin: auto;
+         width: 40%;
+         border: 3px solid green;
+         padding: 10px;
+     }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .item1 {grid-area: 1 / span 6;}
+    .item2 {grid-area: 2 / span 1;}
+    .item3 {grid-area: 2 / span 4;}
+    .item4 {grid-area: 2 / span 1;}
+    .item5 {grid-area: 3 / span 6;}
+  }
+  
