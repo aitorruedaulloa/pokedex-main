@@ -15,7 +15,12 @@
     }
     
 #body_charmander {
-        background-image: url(./pokeball-fuego.jpg);
+        background-image:url(./../pokemons_paginas/imgpokemons/charmander/charmander_fondo.jpg);
+        font-family: "Pixelify Sans";
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
     }
 
     #body_mew {
@@ -25,9 +30,18 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    
-
 }
+
+#body_Quilava {
+    background-image: url(../pokemons_paginas/imgpokemons/Quilava/fondo_quilava.jpg);
+    font-family: "Pixelify Sans";
+    background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
+
+ 
 
 .H1 {
     background-color: rgba(0, 0, 0, 0.551);
@@ -54,13 +68,14 @@
     text-align: center; 
 }
 
-#body_cindaquill {
+#body_cyndaquil {
     background-image: url(../pokemons_paginas/imgpokemons/cindaquill/fondo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     font-family: "Pixelify Sans";
+
 
 
 }
@@ -72,4 +87,12 @@
     padding: 20px;
 
 }
+.volver_inicio {
+    background-color:aliceblue;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 40px;
 
+}
